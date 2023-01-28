@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    color: #40514e;
+}
+
+p {
+    line-height: 1.5;
+
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Sacramento';
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-weight:normal ;
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto 0 auto;
+    color: #66BFBF;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+hr {border-color: #eaf6f6;
+    border-style:dotted none none;
+    border-top-width: 6px;
+    width: 4%;
+    margin-bottom: 70px;
+}
+
+/*****************class selectors************/
+
+.top-h2 {
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 280px;
+    
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom:270px ;
+    left:300px ;
+}
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #e4f9f5;
+}
+.middle-container {
+    margin-bottom: 50px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+
+.h3-edit {
+    font-size: 23px;
+}
+
+.profile {
+    margin:50px auto 100px auto;
+    width: 50%;
+}
+
+.profile-note {
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.man {
+    width: 25%;
+    padding-bottom: 30px;
+}
+
+.programming {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gaming {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 4px;
+    color: #035252;
+    font-size: 15px;
+    background: #68a3a3;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #038585;
+    text-decoration: none;
+  }
+
+ .contact-me-btn {
+    margin-top: 50px;
+  }
+
+  .copyright {
+    color: #eaf6f6;
+    font-size: 10px;
+    padding: 30px 0 10px;
+    margin: 0 auto 0;
+  }
+
+  .footer-link {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
